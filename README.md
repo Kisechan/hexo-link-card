@@ -18,6 +18,21 @@ Convert a link to a link card via existing markdown grammar.
 npm install hexo-link-card --save
 ```
 
+## 配置 Configuration
+
+在 Hexo 的 `_config.yml` 中可以添加以下配置：
+
+``` yaml
+link_card:
+  icon: true
+  bg_color: "#F3F4F4"
+  bg_color_dark: "#303744"
+  title_color: "#1a202c"
+  title_color_dark: "#C0C0C0"
+  desc_color: "#708090"
+  desc_color_dark: "#a7a9ad"
+```
+
 ## 语法 Grammar
 
 我们定义如下语法：
